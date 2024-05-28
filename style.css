@@ -1,0 +1,165 @@
+@charset "utf-8";
+
+/* 공통 */
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Noto Sans KR', sans-serif;
+  color: #000;
+  scroll-behavior: smooth;
+}
+
+ul li {
+  list-style: none;
+}
+
+body {
+  background-color: #fff;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.f-le {
+  float: left;
+}
+
+.m-auto {
+  margin: 0 auto;
+}
+
+.m-top {
+  margin-top: 20px;
+}
+
+/* Top 버튼 */
+.go-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: rgba(238, 238, 238, 0.8);
+  text-align: center;
+  line-height: 10px;
+  padding-top: 15px;
+}
+
+.go-to-font {
+  font-size: 10px;
+}
+
+/* 상단 로고 */
+
+header {
+  width: 100%;
+  height: 100px;
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+  line-height: 100px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+
+.header-wrap {
+  display: flex;
+  justify-content: space-between;
+  width: 1300px;
+}
+
+#logoWrap {
+  width: 600px;
+  height: 100px;
+}
+
+.logo-img > img {
+  height: 43px;
+  vertical-align: middle;
+  padding-right: 16px;
+}
+
+.logo-title {
+  font-size: 32px;
+  color: rgb(144, 19, 254);
+  font-weight: 700;
+}
+
+/* 첫번째 과제 */
+.box-info {
+  padding-top: 100px;
+}
+
+.challenge1 {
+  width: 1300px;
+  display: flex;
+  margin: auto;
+  justify-content: space-evenly;
+  gap: 20px;  /* 박스들 사이 간격 20px 주기 */
+}
+
+.box{
+  border: 50px solid #81ecec;
+  width: 200px;
+  padding: 50px;
+}
+
+.green {
+  border-color: #74b9ff;
+  /* display: none; */
+  /* visibility: hidden; */
+}
+
+.blue {
+  border-color: #a29bfe;
+}
+
+/* 두번째 과제 */
+
+.challenge2-info {
+  background-color: #f6f6f4;
+  background-image:
+  linear-gradient(90deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px),
+  linear-gradient(#eee .1em, transparent .1em);
+  background-size: 100% 1.2em;
+  padding: 10%;
+}
+
+.challenge2 {
+  width: 1300px;
+}
+
+p {
+  font-size: 16px;
+  font-style: italic;
+  font-family: Verdana;
+}
+
+p::first-letter {
+  font-size: 200%;
+  color: 2980b9;
+}
+
+.sub-header {
+  color: #2980b9;
+}
+
+h1 {
+  color: #9b59b6;
+}
+
+h1::before {
+  content: "Topic: ";
+}
+
+h1:first-child {
+  text-align: center;
+}
+
+
+
